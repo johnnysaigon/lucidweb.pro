@@ -1,0 +1,512 @@
+<!-- 
+/*
+ * Copyright 2017 Thomas Balouet All Rights Reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */ 
+-->
+<!doctype html>
+<html>
+<head>
+
+    <title>LucidWeb, democratizing VR discovery</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="CwTscyfj-nxt1FX0tprSs41Fdf88yQLcveGz1N0vldU" />
+    
+    <meta name="description" content="VR and WebVR agency">
+
+    <meta name="keywords" content="virtual, reality, WebVR, immersion, reveries, experience, vr, consultancy">
+
+    <link rel="icon" type="image/ico" href="/public/favicon.png"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="/public/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Custom CSS-->
+    <link href="/public/css/general.css" rel="stylesheet">
+    
+     <!-- Owl-Carousel -->
+    <link href="/public/css/custom.css" rel="stylesheet">
+    <link href="/public/css/owl.carousel.css" rel="stylesheet">
+    <link href="/public/css/owl.theme.css" rel="stylesheet">
+    <link href="/public/css/style.css?111" rel="stylesheet">
+    <link href="/public/css/animate.css" rel="stylesheet">
+    
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="/public/css/magnific-popup.css"> 
+
+    <link href="/public/css/index.css?111" rel="stylesheet">
+    
+    <script src="/public/vendor/js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+    <!--[if IE 9]>
+        <script src="js/PIE_IE9.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="js/PIE_IE678.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="home">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    
+    <!-- FullScreen -->
+    <div class="intro-header">
+        <canvas class="intro-iframe" id="mainCanvas"></canvas>
+        <div class="col-xs-12 text-center abcen1">
+            <img class="img-responsive" src="/public/img/sprite/logo-big-landing-page.png"></img>
+            <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Democratizing VR discovery</h1>
+        </div>    
+        <!-- /.container -->
+        <div class="col-xs-12 text-center abcen wow fadeIn">
+            <div class="button_down "> 
+                <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#solutions"> 
+                    <img class="img_scroll" src="/public/img/transpixel.png"> </img>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- NavBar-->
+    <nav class="navbar-default" role="navigation">
+        <div class="containerHeader">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">
+                    <img src="/public/img/transpixel.png"> </img>
+                </a>
+            </div>
+
+            <div class="collapse text-center navbar-collapse navbar-right navbar-ex1-collapse">  
+                <a target="_blank" class="navbar-twitter" href="https://twitter.com/lucidw3b">
+                    <img src="/public/img/transpixel.png"> </img>
+                </a>
+                <a target="_blank" class="navbar-facebook" href="https://www.facebook.com/lucidw3b/">
+                    <img src="/public/img/transpixel.png"> </img>
+                </a>
+            </div>
+            <div class="text-center navbar-right"> 
+                <a id="VRButton" class="navbar-webvr tooltips ttFirst">
+                    <img src="/public/img/transpixel.png"> </img>
+                    <span >
+                        <strong>Try Me!</strong>
+                    </span>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-left navbar-ex1-collapse navBarSections">
+                <ul class="nav navbar-nav">
+                    
+                    <li class="menuItem"><a href="#solutions">solutions</a></li>
+                    <li class="menuItem"><a href="#recentwork">recent work</a></li>
+                    <li class="menuItem"><a href="#team">team</a></li>
+                    <li class="menuItem"><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </nav> 
+    
+    <!-- Solutions -->
+    <div id="solutions" class="content-section-b" style="border-top: 0">
+        <div class="container">
+
+            <div class="col-md-6 text-left wrap_title">
+                <h2><img class="img-responsive carette" src="/public/img/sprite/carette.png"></img> Solutions</h2>                
+            </div>
+            
+            <div class="row">
+            
+                <div class="col-md-5 col2Left wow fadeInDown text-center">
+                  <img class="rotate solution1" src="/public/img/transpixel.png"> </img>
+                  <h3>lndustry Expertise, Consulting & Strategy </h3>
+                  <p class="lead">LucidWeb can easily respond to all your questions related to VR, AR and MR. We will advise in making use of these emerging technologies to bring your content to your the audience in the most accessible and convenient way. <br><br> Through past dedicated VR/AR/MR workshops, we have helped content creators and publishers bring to life innovative projects by leveraging their artwork/IP in transmedia storytelling.</p>
+
+                  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-md-5 wow fadeInDown text-center">
+                  <img class="rotate solution2" src="/public/img/transpixel.png"> </img>
+                   <h3>Custom WebVR/AR Development & Implementation</h3>
+                   <p class="lead">Would you like to embed a VR player on your website? Want to have your 360° content available on desktop and mobile as well as on the most popular VR headsets? Need to add immersive text and images, audio or video to a VR experience? <br><br> <a href="mailto:leen@lucidweb.io"> We can help.</a> LucidWeb has the resources to develop and implement the right solution for you. </p>
+                   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div><!-- /.col-lg-4 -->
+
+                
+                <div class="col-md-12 col2Left wow fadeInDown text-center">
+                    <br><br>
+                    <img class="img-responsive" src="/public/img/visuels/LucidWebPro.jpeg"> </img>
+                <h3>LUCIDWEB PRO: Device-agnostic Publishing Platform</h3>
+                  <p class="lead">In close collaboration with media companies and enterprises across Europe, LucidWeb has developed a user-friendly, cross-platform web player designed for a truly immersive and high quality experience. Conveniently and directly accessible from any device, no download or installation required. <br><br> The player comes with a powerful CMS that enables the publisher to easily upload, manage (add a script, hotspots, spatialized audio, multiplayer setup), publish (incl. branding options) and analyse the VR experiences (e.g via heat maps).<a href="mailto:leen@lucidweb.io"> Email us</a> if you would like to join our closed beta for the player.</p>
+                </div>
+
+            </div><!-- /.row -->
+        </div>
+    </div>
+            
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeftBig">
+                  <img class="img-responsive" src="/public/img/visuels/publisher_en.jpg"></img>
+                </div>
+                
+                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
+                  <img class="img-responsive" src="/public/img/visuels/client_en.jpg"></img>
+                </div>              
+            </div>
+
+    <!-- Recent work -->
+    <div  id="recentwork" class="content-section-b">
+        <div class="container">
+          <div class="row" >
+             <div class="col-md-6 text-left wrap_title ">
+                <h2><img class="img-responsive carette" src="/public/img/sprite/carette.png"></img> Work</h2>
+             </div>
+          </div>
+            <div class="row wow bounceInUp" >
+              <div id="owl-demo" class="owl-carousel">
+                
+                <div class="item">
+                  <a href="/public/img/visuels/work-wonen-tv3.png" class="image-link">
+                    <img  class="img-responsive img-rounded" src="/public/img/visuels/work-wonen-tv3.png" alt="Wonen TV Architectural 360° visit"></img>
+                    <h3>VRT - WebVR 360° Architectural Visit</h3>
+                    <p class="lead workLeadLeft">Creative VR-agency Yume VR asked LucidWeb to develop a WebVR player for a new primetime TV show by the Flemish public broadcaster VRT, 
+                        called Wonen.tv. The experience is leveraged by interactive hotspots, as well audio as video. Visit one of the exclusive houses 
+                      <a class="textLink" target="_blank" href="https://www.een.be/wonen-tv/breng-een-virtueel-bezoek-aan-de-woning-ontworpen-door-juliaan-lampens">here.</a></p>
+                  </a>
+                </div>
+                
+                <div class="item">
+                  <a href="/public/img/visuels/VR_FUND_EU_LANDSCAPE_1H_2017_1280px.png" class="image-link">
+                    <img  class="img-responsive img-rounded" src="/public/img/visuels/VR_FUND_EU_LANDSCAPE_1H_2017_1280px.png" alt="The European VR Landscape 2017"></img>
+                    <h3>The VR Fund - VR Landscape Europe 2017</h3>
+                    <p class="lead">LucidWeb & Silicon Valley-based venture firm The Venture Reality Fund released the second edition of the European Virtual Reality landscape. The report features dozens of companies developing infrastructure, tools, platforms and apps for the booming VR ecosystem. You can find the complete list of Europe's fastest growing VR companies <a class="textLink" target="_blank" href="https://trello.com/b/w1MlJtRs/the-vr-fund-vr-industry-landscape-europe-1st-august-2017">here.</a></p></p>
+                  </a>
+                </div>
+                
+              </div>       
+          </div>
+        </div>
+
+
+    </div>
+    
+
+ <!-- Team -->
+    <div id="team" class="content-section-b" style="border-top: 0">
+        <div class="container">
+
+            <div class="col-md-6 text-left wrap_title">
+                <h2><img class="img-responsive carette" src="/public/img/sprite/carette.png"></img> Team</h2>                
+            </div>
+            
+            <div class="row">
+            
+                <div class="col-md-5 col2Left wow fadeInDown text-center">
+                  <img class="img-responsive" src="/public/img/visuels/LeSe.jpg"></img>
+                  <h3>Leen SEGERS - Founder</h3>
+                  <p class="lead">Leen has been building companies in technology and media for ten years. From evangelising social media to monetising online video, she has a successful track record in generating business growth and maximising profits. <br><br> Since then she has experienced the front lines of the startup world. In 2014 she joined Tech.eu as the COO of the premier media startup, covering in-depth the vast European technology sector. In 2016, convinced that the future of mobile video will be virtual, she co-founded LucidWeb.</p>
+                
+					<li class="social"> 
+					<a href="https://www.linkedin.com/in/leensegers/"><i class="fa fa-linkedin fa-size"> </i></a>
+					<a href="https://twitter.com/leenus"><i class="fa fa-twitter fa-size"> </i> </a> 
+					<a href="https://medium.com/@leenus"><i class="fa fa-medium fa-size"> </i></a>
+
+                  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-md-5 wow fadeInDown text-center">
+                  <img class="img-responsive" src="/public/img/visuels/FaBe.jpg"></img>
+                   <h3>Fabien BENETOU - Tech Wizard</h3>
+                   <p class="lead">Making virtual worlds real, one pixel at a time!  As an engineer with a strong expertise in WebVR, Fabien has anchored himself within the Mozilla Aframe commmunity. He is dedicated to finding the most efficient interfaces for creating, distributing and viewing VR/AR content on the Web. <br><br> For last three years, he has concentrated his attention to building custom VR experiences for startups as well as for Fortune 500 companies, gaining strong experience and expertise in the WebXR segment.</p>
+        
+                    <li class="social"> 
+					<a href="https://www.linkedin.com/in/benetoufabien/"><i class="fa fa-linkedin fa-size"> </i></a>
+					<a href="https://twitter.com/utopiah"><i class="fa fa-twitter fa-size"> </i> </a> 
+					<a href="https://medium.com/@utopiah"><i class="fa fa-medium fa-size"> </i></a>
+                   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+                </div><!-- /.col-lg-4 -->
+                
+            </div><!-- /.row -->
+        </div>
+    </div>
+
+
+
+    <div  class="content-section-c ">
+        <img class="newsletterImg" src="/public/img/transpixel.png"></img> 
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center white">
+                <h4>LucidWeb's latest news</h4>
+             </div>
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <div class="mockup-content">
+                        <div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+                            <button type="button "><span class="newletterFont">Subscribe to our newsletter</span></button>
+                            <div class="morph-content">
+                                <div>
+                                    <div class="content-style-form content-style-form-4 ">
+                                        <h2 class="morph-clone newletterFont">Subscribe to our newsletter</h2>
+                                        <form action="//lucidweb.us15.list-manage.com/subscribe/post?u=49cbab476530edb3ef2faec7b&amp;id=934ddef58e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                            <div id="mc_embed_signup_scroll">
+                                                <div class="indicates-required"><span class="asterisk">*</span> required</div>
+                                                <div class="mc-field-group">
+                                                    <label for="mce-FNAME">First Name </label>
+                                                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                                                </div>
+                                                <div class="mc-field-group">
+                                                    <label for="mce-LNAME">Last Name </label>
+                                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                                                </div>
+                                                <div class="mc-field-group">
+                                                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                                                    <input type="email" value="" name="EMAIL" class="" id="mce-EMAIL">
+                                                </div>
+                                                <div id="mce-responses" class="clear">
+                                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_49cbab476530edb3ef2faec7b_934ddef58e" tabindex="-1" value=""></div>
+
+                                                <div class="clear">
+                                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribeMeFont">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>  
+            </div>
+        </div>
+    </div>  
+    
+    <!-- Contact -->
+  <!--  <div id="contact" class="content-section-a">
+        <div class="container">
+            <div class="row">
+            
+            <div class="col-md-6 col-md-offset-1 text-left wrap_title">
+                <h2>Contact us</h2>
+            </div>
+            
+              <form name="sentMessage" id="contactForm" novalidate>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your email</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required  >
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <div class="input-group">
+                            <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                        </div>
+                    </div>
+
+                    <input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+                </div>
+            </form>
+                
+            <div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h2>Office Location</h2>
+					<p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&amp;q=The+Pentagon&amp;fb=1&amp;gl=us&amp;hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&amp;cid=12647181945379443503&amp;ei=qmYfU4H8LoL2oATa0IHIBg&amp;ved=0CKwBEPwSMAo&amp;safe=on">The Pentagon<br>
+					Washington, DC 20301</a><br>
+					Phone: XXX-XXX-XXXX<br>
+					Fax: XXX-XXX-YYYY</p>
+					</address>
+
+					<h3>Social</h3>
+					<li class="social"> 
+					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
+					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
+					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
+					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
+					</li>
+				</div>   
+           
+        </div>
+    </div>-->
+
+   <div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Contact Us</h2>
+				<p class="lead" style="margin-top:0">And we'll be sure to get back to you!</p>
+			</div>
+			
+			<form role="form" action="" method="post">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">Your Name</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required="">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputEmail">Your Email</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required="">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputMessage">Message</label>
+						<div class="input-group">
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required=""></textarea>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right animated animated" style="visibility: visible;">
+				</div>
+			</form>
+			
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>LucidWeb Head Office</h3>
+					<p class="lead">Boulevard d' Anvers 40<br>
+					1000 Brussels</a><br>
+					Belgium<br>
+					</p>
+					</address>
+
+					<h3>Social</h3>
+					<li class="social"> 
+					<a href="https://www.linkedin.com/company-beta/15190278/"><i class="fa fa-linkedin-square fa-lg"> </i></a>
+					<a href="https://twitter.com/lucidw3b"><i class="fa fa-twitter-square fa-lg"> </i> </a> 
+<!--					<a href="https://medium.com/@leenus"><i class="fa fa-medium-square fa-lg"> </i></a>-->
+                    <a href="https://www.facebook.com/lucidw3b/"><i class="fa fa-facebook-square fa-lg"> </i></a>
+<!--					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>-->
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>     
+        
+        
+    <div class="container">
+        <p>    
+        </p>
+    </div>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+              <span class="copyright">Copyright &copy; LucidWeb 2016</span>
+          </div>
+          <div class="col-md-4">
+              <ul class="list-inline quicklinks">
+                  <li><a target="_blank" href="#">Privacy Policy</a>
+                  </li>
+                  <li><a target="_blank" href="#">Terms of Use</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="/public/vendor/jquery/jquery.js"></script>
+    <script src="/public/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="/public/vendor/js/owl.carousel.js"></script>
+    <script src="/public/vendor/js/script.js"></script>
+    <!-- StikyMenu -->
+    <script src="/public/vendor/js/stickUp.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function($) {
+        $(document).ready( function() {
+          $('.navbar-default').stickUp();
+          
+        });
+      });
+    
+    </script>
+    <!-- Smoothscroll -->
+    <script type="text/javascript" src="/public/vendor/js/jquery.corner.js"></script> 
+    <script src="/public/vendor/js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+    </script>
+    <script src="/public/vendor/js/classie.js"></script>
+    <script src="/public/vendor/js/uiMorphingButton_inflow.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="/public/vendor/js/jquery.magnific-popup.js"></script> 
+
+    <script src=<%= mainFile %>></script>
+<!--    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-84654457-1', 'auto');
+      ga('send', 'pageview');
+    </script>-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84654457-2', 'auto');
+  ga('send', 'pageview');
+    </script>     
+    
+</body>
+
+</html>

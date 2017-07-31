@@ -1,0 +1,64 @@
+{
+  "name": "Lucidweb",
+  "version": "1.0.0",
+  "author": "Thomas Balouet",
+  "homepage": "https://bitbucket.org/tbalouet/lucidweb#readme",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tbalouet@bitbucket.org/tbalouet/lucidweb.git"
+  },
+  "dependencies": {
+    "browserify": "*",
+    "concurrently": "^3.1.0",
+    "cookie-parser": "^1.1.0",
+    "cors-anywhere": "*",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "i18n": "*",
+    "nodemon": "^1.9.2",
+    "sendmail": "*",
+    "uglify-js": "^2.6.1",
+    "bitcodin": "*",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "striptags": "2.1.1",
+    "body-parser": "*",
+    "htmlspecialchars": "1.0.5",
+    "font-awesome": "^4.6.3",
+    "jquery": "^1.11.3",
+    "better-npm-run": "~0.0.1",
+    "mkdirp": "*",
+    "archiver": "~1.2.0",
+    "fs-extra": "*",
+    "ncp": "~2.0.0",
+    "formidable": "*",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"better-npm-run dev\" \"watchify client/app/main.js -o public/lucidweb_dev.js -v\"",
+    "prod": "better-npm-run prod",
+    "watch": "watchify client/app/main.js -o public/lucidweb_dev.js -v",
+    "build": "browserify client/app/main.js -o public/lucidweb_dev.js -v && browserify client/app/main.js | uglifyjs -cm > public/lucidweb_prod.js"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "nodemon server.js",
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    },
+    "prod": {
+      "command": "node server.js",
+      "env": {
+        "NODE_ENV": "prod"
+      }
+    }
+  }
+}

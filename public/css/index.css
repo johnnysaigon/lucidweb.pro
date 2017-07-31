@@ -1,0 +1,461 @@
+body{
+	background-color: #ffffff;
+}
+
+/**
+ * HACK FOR BOOTSTRAP NAVBAR TOGGLE
+ */
+@media (max-width: 875px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+@font-face {
+    font-family: CircularStd-Bold;
+    src: url('/public/fonts/CircularStd-Bold.eot'); /* IE9 Compat Modes */
+    src: url('/public/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/public/fonts/CircularStd-Bold.woff') format('woff'), /* Modern Browsers */
+         url('/public/fonts/CircularStd-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/public/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: CircularStd-Book;
+    src: url('/public/fonts/CircularStd-Book.otf');
+}
+
+@media (min-width: 1200px){
+	.container {
+	    width: calc(80%)!important;
+	}
+	.navbar-nav>li>a {
+	    padding-top: 18.5px;
+	    padding-bottom: 15px;
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+	    width: calc(80%)!important;
+	}
+	.navbar-nav>li>a {
+	    padding-top: 18.5px;
+	    padding-bottom: 15px;
+	}
+}
+@media (min-width: 850px){
+	.container {
+	    width: calc(80%)!important;
+	}
+	.navbar-nav>li>a {
+	    padding-top: 18.5px;
+	    padding-bottom: 15px;
+	}
+}
+
+.col2Left{
+	margin-right: 15%;
+}
+
+@media (max-width: 850px){
+	.col2Left{
+		margin-right: 0;
+	}
+}
+
+.carette{
+	float: left;
+    margin-right: 15px!important;
+}
+
+.h2{
+  	margin-top: -55px;
+}
+
+
+@media (max-width: 850px){
+	.col-md-5{
+		margin-top: 20px;
+	}
+}
+
+.img-responsive{
+	margin: auto;
+/*    margin-top: 30px;*/
+
+}
+
+.textLink{
+	color: #204395;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+/*=======================================*/
+/*==========TOP PART FULLSCREEN==========*/
+/*=======================================*/
+
+.intro-header {
+	height: 100%; /* Full PAge */
+	color: #f8f8f8;
+	background-size: cover;
+	text-align: center;
+    display: inline-block;
+}
+
+.lwTitle{
+	max-width: 628px;
+	max-height: 164px;
+}
+
+.intro-iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.h1_home{
+	color: #ffec1c;
+	font-size: 50px;
+	font-family: CircularStd-Bold;
+}
+
+.button_down img {
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -5px -5px;
+	width: 64px;
+	height: 64px;
+}
+
+.navbar-brand{
+	padding-top: 13px;	
+}
+
+.containerHeader{
+	margin-right: 40px;
+	margin-left: 0;
+}
+
+.navBarSections{
+	margin-left: calc(40% - 212px);
+}
+
+/*=======================================*/
+/*================NAVBAR=================*/
+/*=======================================*/
+
+.navbar {
+	position: relative;
+	min-height: 60px;
+	margin-bottom: 0; 
+	width: 100%;
+	z-index: 999;
+	border-radius: 0; 
+}
+
+.navbar-default {
+	position: relative;
+	min-height: 60px;
+	width: 100%;
+	z-index: 999;
+	background-color: #dadada;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-family: CircularStd-Bold;
+    font-size: 18px;
+	color: #9cb0c7;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ffffff;
+}
+
+.navbar-brand {
+	font-family: arvo;
+	letter-spacing: 3px;
+	font-weight: 400 !important;
+}
+
+.navbar-brand img {
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -449px -5px;
+	width: 132px;
+	height: 34px;
+}
+
+.navbar-right{
+	margin-top: 6px;
+}
+
+.navbar-twitter img {
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -807px -363px;
+	width: 48px;
+	height: 48px;
+}
+
+.navbar-facebook img {
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -5px -116px;
+	width: 48px;
+	height: 48px;
+}
+
+.navbar-webvr img{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -6px -209px;
+	width: 69px;
+	height: 40px;
+	margin: 5px;
+}
+
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.ttFirst span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  background: #1E3C90;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 6px;
+  opacity: 0.8;
+  top: 40px;
+  left: 58%;
+  margin-left: -76px;
+  z-index: 999;
+}
+a.tt span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  background: #1E3C90;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #1E3C90;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.8;
+  top: 40px;
+  left: 58%;
+  margin-left: -76px;
+  z-index: 999;
+}
+
+@media (max-width: 850px){
+	.h1_home{
+		color: #ffec1c;
+		font-size: 40px;
+		font-family: CircularStd-Bold;
+	}
+	.navBarSections{
+		margin-left: 0!important;
+		width: 100%;
+	}
+	.containerHeader{
+		margin-right: 0!important;
+	}
+}
+
+/*=======================================*/
+/*===============SOLUTIONS===============*/
+/*=======================================*/
+
+.solution1{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -698px -617px;
+	width: 136px;
+	height: 136px;
+}
+
+.solution2{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -698px -472px;
+	width: 135px;
+	height: 135px;
+}
+
+.solution3{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -5px -445px;
+	width: 356px;
+	height: 198px;
+}
+
+.tableContainer{
+	text-align: center;
+}
+
+.img-fluid {
+  	max-width: 1000px;
+    width: 60%;
+    height: auto;
+    min-width: 700px;
+}
+
+@media (max-width: 850px){
+	.img-fluid {
+	    max-width: 100%;
+	    width: 60%;
+	    height: auto;
+	    min-width: 100%;
+	}
+}
+
+/*=======================================*/
+/*================WORKS==================*/
+/*=======================================*/
+
+.workLeadLeft{
+	margin-right: 10%;
+}
+
+/*=======================================*/
+/*==============NEWSLETTER===============*/
+/*=======================================*/
+
+.newsletterImg{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -702px -5px;
+	width: 130px;
+	height: 130px;
+	position: relative;
+    top: -100px;
+    left: calc(50% - 65px);
+}
+
+.newletterFont{
+	font-size: 36px!important;
+}
+.subscribeMeFont{
+	font-size: 30px!important;
+}
+
+.divButton{
+	text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 850px){
+	.newletterFont{
+		font-size: 22px!important;
+	}
+	.subscribeMeFont{
+		font-size: 22px!important;
+	}
+}
+
+/*=======================================*/
+/*=================TEAM==================*/
+/*=======================================*/
+
+.imgMedaillonTeam{
+	width: 135px;
+	height: 135px;
+}
+
+.linkedin{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -137px -763px;
+	width: 59px;
+	height: 59px;
+}
+.linkedin:hover{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -342px -763px;
+	width: 59px;
+	height: 59px;
+}
+
+.twitter{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -74px -763px;
+	width: 59px;
+	height: 59px;
+}
+.twitter:hover{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -279px -763px;
+	width: 59px;
+	height: 59px;
+}
+
+.medium{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -5px -763px;
+	width: 59px;
+	height: 59px;
+}
+.medium:hover{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -210px -763px;
+	width: 59px;
+	height: 59px;
+}
+
+.facebook{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -407px -761px;
+	width: 59px;
+	height: 59px;
+}
+.facebook:hover{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -472px -761px;
+	width: 59px;
+	height: 59px;
+}
+
+/*=======================================*/
+/*==============ALPHA TEST===============*/
+/*=======================================*/
+
+.reveriesLogo{
+	background: url("/public/img/sprite/spritesheet.png") no-repeat -5px -445px;
+	width: 356px;
+	height: 198px;
+}
+
+/*=======================================*/
+/*==============CONTACT===============*/
+/*=======================================*/
+
+.input-group{
+	width: 100%;
+}
+
+.input-group-addon, .input-group-btn{
+	width: 10%;
+}
